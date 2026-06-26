@@ -216,3 +216,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project-specific
+data/
+checkpoints/
+wandb_logs/
+wandb/
+outputs/*.png
+outputs/*.csv
+outputs/*.npy
+.hydra/
+*.ckpt
+*.pt
+

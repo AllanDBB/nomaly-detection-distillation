@@ -1,0 +1,4 @@
+project: anomaly-detection-distillation
+entity: null
+log_model: false
+save_dir: "./wandb_logs"

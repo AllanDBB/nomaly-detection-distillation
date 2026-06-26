@@ -1,0 +1,8 @@
+name: cnn_distilled
+hidden_dim: 256
+num_classes: 10
+learning_rate: 1e-3
+weight_decay: 1e-4
+alpha: 0.5
+beta: 0.3
+gamma: 0.2

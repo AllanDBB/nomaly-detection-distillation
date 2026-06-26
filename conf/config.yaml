@@ -1,0 +1,27 @@
+defaults:
+  - model: cnn_scratch
+  - trainer: default
+  - logger: wandb
+  - _self_
+
+data:
+  dataset_path: "./data/mvtec"
+  classes:
+    - bottle
+    - cable
+    - capsule
+    - carpet
+    - grid
+    - hazelnut
+    - leather
+    - metal_nut
+    - pill
+    - screw
+  image_size: 256
+  batch_size: 32
+  num_workers: 4
+  val_split: 0.2
+
+seed: 42
+output_dir: "./outputs"
+checkpoints_dir: "./checkpoints"
